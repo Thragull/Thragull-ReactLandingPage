@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className='bg-secondary py-2 fixed-bottom'>Copyright © Thragull All rights reserved.</footer>
   )
 }
 
