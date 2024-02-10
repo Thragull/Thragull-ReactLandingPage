@@ -6,6 +6,7 @@ import Jumbotron from "./Jumbotron";
 import Cards from "./Cards";
 import Footer from "./Footer";
 import About from "./About";
+import Contact from "./Contact";
 
 //create your first component
 const Home = (props) => {
@@ -47,8 +48,7 @@ const Home = (props) => {
 			return (
 				<div className="text-center">
 					<Navbar />
-					<Jumbotron />
-					<Cards />
+					<Contact />
 					<Footer/>
 				</div>
 			);
