@@ -10,16 +10,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSelector">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className='nav-item'>
-              <a className="nav-link text-white active text-start ms-5 ms-lg-0" aria-current="page" href="#">Home</a>
+              <a id="home" role="button" className="nav-link active text-start ms-5 ms-lg-0" aria-current="page" href="#">Home</a>
             </li>
             <li className='nav-item'>
-              <a className="nav-link text-white text-start ms-5 ms-lg-0" aria-current="page" href="#">About</a>
+              <a id="about" className="nav-link inactive text-start ms-5 ms-lg-0" aria-current="page" href="#">About</a>
             </li>
             <li className='nav-item'>
-              <a className="nav-link text-white text-start ms-5 ms-lg-0" aria-current="page" href="#">Services</a>
+              <a id="services" className="nav-link inactive text-start ms-5 ms-lg-0" aria-current="page" href="#">Services</a>
             </li>
             <li className='nav-item'>
-              <a className="nav-link text-white text-start ms-5 ms-lg-0 me-lg-3" aria-current="page" href="#">Contact</a>
+              <a id="contact" className="nav-link inactive text-start ms-5 ms-lg-0 me-lg-3" aria-current="page" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -27,5 +27,6 @@ const Navbar = () => {
     </nav>
   )
 }
+
 
 export default Navbar
