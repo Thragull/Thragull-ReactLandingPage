@@ -21,7 +21,7 @@ const cardsInfo = [
 
 const Cards = () => {
   return (
-    <div className='container row mx-auto mt-3 px-0'>
+    <div className='container row mx-auto mt-3 mb-5 px-0'>
         {cardsInfo.map((card, index) => {
             return <Card title={card.title} text={card.text} image={card.image} link={card.link} key={index}/>
         })}
