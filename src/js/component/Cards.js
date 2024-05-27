@@ -3,7 +3,7 @@ import Card from './Card'
 const cardsInfo = [
     {title: "Meet the new AMR24", 
     text: "We are excited to announce the new AMR24 for the 2024 F1 season. Come and meet the new Fernando Alonso and Lance Stroll F1 Car.", 
-    image:"https://speedcafe.com/wp-content/uploads/2023/09/f9690b8b-877f-3dc6-dc1b-a5f5a0afea7e.jpg_12x8.jpg",
+    image:"https://storage.googleapis.com/fp-media/1/2023/07/Aston-Martin-livrea-Silverstone.jpg",
     link:"https://www.gpblog.com/en/news/255151/aston-martin-presentation-car-with-alonso-and-stroll.html"},
     {title: "Boeing faces new crisis", 
     text: "The last incident with the Boeing 737-MAX is delaying the production. Boeing is facing a new crisis with delays in their deliverys and cancelations.", 
